@@ -10,7 +10,7 @@ O [pneu](https://www.thingiverse.com/thing:4735065) foi impresso em TPU, um fila
 
 E usei um [suporte para chave KCD1](https://www.thingiverse.com/thing:2640938).
 
-O código original usava uma placa com dois microcontroladores, o esp12-e para comunicação por Wi-Fi e um ATSAMD21G18, usado no Arduino Zero. O código usado é uma adaptação para o ESP32, em que os timers para o driver do motor foram adaptados, e a comunicação, processamento e controle foram fundidos em apenas um microcontrolador: [Código para o ESP32](https://github.com/ghmartin77/B-ROBOT_EVO2_ESP32).
+O código original usava uma placa com dois microcontroladores, o esp12-e para comunicação por Wi-Fi e um ATSAMD21G18, usado no Arduino Zero era responsável por processar o sinal do sensor e fazer o controle. O código usado é uma adaptação para o ESP32, em que os timers para o driver do motor foram adaptados, e a comunicação, processamento e controle foram fundidos em apenas um microcontrolador: [Código para o ESP32](https://github.com/ghmartin77/B-ROBOT_EVO2_ESP32).
 
 O [site](https://www.jjrobots.com/much-more-than-a-self-balancing-robot/) com informações sobre o robô, controle e desenvolvimento é bem útil para entender os princípios e o funcionamento do robô. 
 
