@@ -4,13 +4,19 @@ Um robô do tipo "self-balancing" que usa um algoritmo PID e um sensor MPU6050 p
 <img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/IMG_robo1.jpg" height ="380" width ="315">  <img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/Img_robo.jpg" height ="380" width ="315"> <img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/IMG_Robo2.jpg" height ="380" width ="315">
 
 # Créditos
-Esse robô foi criado com base nos STLs do B-robot EVO2 da JJRobots: [STLs B-robot](https://www.thingiverse.com/thing:2306541) .
+Esse robô foi criado com base nos STLs do B-robot EVO2 da JJRobots: [STLs B-robot](https://www.thingiverse.com/thing:2306541), tudo menos os pneus foram impressos em PLA, fiz pequenas modificações na base dos componentes para conseguir parafusar o ESP32 e o MPU6050 e no para-choque.
+
+O [pneu](https://www.thingiverse.com/thing:4735065) foi impresso em TPU, um filamento flexível para dar aderência no solo.
+
+E usei um [suporte para chave KCD1](https://www.thingiverse.com/thing:2640938).
 
 O código original usava uma placa com dois microcontroladores, o esp12-e para comunicação por Wi-Fi e um ATSAMD21G18, usado no Arduino Zero. O código usado é uma adaptação para o ESP32, em que os timers para o driver do motor foram adaptados, e a comunicação, processamento e controle foram fundidos em apenas um microcontrolador: [Código para o ESP32](https://github.com/ghmartin77/B-ROBOT_EVO2_ESP32).
 
 O [site](https://www.jjrobots.com/much-more-than-a-self-balancing-robot/) com informações sobre o robô, controle e desenvolvimento é bem útil para entender os princípios e o funcionamento do robô. 
 
-# Sensor ângulo
+
+
+# Sensor do ângulo
 O sensor usado foi o MPU6050, que combina um acelerômetro e um giroscópio, combinando os dados num filtro complementar conseguimos eliminar a sensibilidade do acelerômetro e o erro no tempo do giroscópio.
 
 <p align="center">
