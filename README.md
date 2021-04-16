@@ -14,6 +14,10 @@ O sensor usado foi o MPU6050, que combina um acelerômetro e um giroscópio, com
   <img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/Mpu6050.jfif">
   
  # Motores e drivers
- O motor usado foi o Nema17, que é um motor de passo unipolar usado geralmente em impressoras 3d e CNCs.
+ O motor usado foi o [Nema17](https://www.curtocircuito.com.br/motor-de-passo-nema-17-4-8-kgf-cm-1-0a.html), que é um motor de passo unipolar usado geralmente em impressoras 3d e CNCs.
  
+<p align="center">
+  <img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/nema17.jfif">
 
+ O driver escolhido para tal motor foi o [DRV8825](https://www.curtocircuito.com.br/catalog/product/view/id/602/s/driver-motor-passo-drv8825/) como podemos ver a seguir esse driver precisa de apenas dois sinais de controle e alguns pinos de nível lógico para habilitar o driver.
+ 
