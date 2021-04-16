@@ -11,4 +11,4 @@ O [site](https://www.jjrobots.com/much-more-than-a-self-balancing-robot/) com in
 O sensor usado foi o MPU6050, que combina um acelerômetro e um giroscópio, combinando os dados num filtro complementar conseguimos eliminar a sensibilidade do acelerômetro e o erro no tempo do giroscópio.
 
 <p align="center">
-  ![](https://github.com/JoaoYukio/bbRobotEsp32/blob/main/Mpu6050.jfif)
+  <img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/Mpu6050.jfif">
