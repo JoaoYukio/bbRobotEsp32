@@ -12,3 +12,8 @@ O sensor usado foi o MPU6050, que combina um acelerômetro e um giroscópio, com
 
 <p align="center">
   <img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/Mpu6050.jfif">
+  
+ # Motores e drivers
+ O motor usado foi o Nema17, que é um motor de passo unipolar usado geralmente em impressoras 3d e CNCs.
+ 
+
