@@ -1,7 +1,7 @@
 # bbRobotEsp32
 Um robô do tipo "self-balancing" que usa um algoritmo PID e um sensor MPU6050 para controlar a sua inclinação, todas as peças não eletrônicas foram impressas numa impressora 3d, exceto os parafusos.
 
-<img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/IMG_robo1.jpg" height ="350" width ="300">  <img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/Img_robo.jpg" height ="350" width ="300"> <img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/IMG_Robo2.jpg" height ="350" width ="300">
+<img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/IMG_robo1.jpg" height ="380" width ="300">  <img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/Img_robo.jpg" height ="380" width ="300"> <img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/IMG_Robo2.jpg" height ="380" width ="300">
 
 # Créditos
 Esse robô foi criado com base nos STLs do B-robot EVO2 da JJRobots: [STLs B-robot](https://www.thingiverse.com/thing:2306541) .
