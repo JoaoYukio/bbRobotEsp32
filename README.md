@@ -31,6 +31,6 @@ O sensor usado foi o MPU6050, que combina um acelerômetro e um giroscópio, com
   <img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/Baterias.jpg">
   
   # Esquemático
-  Foi usado o seguinte esquemático para a montagem do robô:
+  Foi usado o seguinte [esquemático](https://blogdaichan.hatenablog.com/entry/%3Fp%3D7129) para a montagem do robô:
   <p align="center">
-  <img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/esquem%C3%A1tico.jpg" height ="400" width ="500">
+  <img src="https://github.com/JoaoYukio/bbRobotEsp32/blob/main/esquem%C3%A1tico.jpg" height ="600" width ="700">
